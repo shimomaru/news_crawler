@@ -1,24 +1,40 @@
 {
-    "sites": [
-      "https://www.legit.ng",
-      "https://punchng.com",
-      "https://www.vanguardngr.com",
-      "https://dailypost.ng",
-      "https://www.premiumtimesng.com",
-      "https://guardian.ng",
-      "https://saharareporters.com",
-      "https://thenationonlineng.net",
-      "https://dailytrust.com",
-      "https://sunnewsonline.com",
-      "https://tribuneonlineng.com",
-      "https://leadership.ng",
-      "https://thisdaylive.com",
-      "https://dailytimesng.com",
-      "https://naijanews.com",
-      "https://prime9ja.com.ng",
-      "https://independent.ng",
-      "https://tmynews.com",
-      "https://naijausers.com"
-    ]
-  }
-  
+  "sites": [
+    {
+      "root": "https://guardian.ng/",
+      "search": "https://guardian.ng/search-results/?q={query}"
+    },
+    {
+      "root": "https://dailypost.ng/",
+      "search": "https://dailypost.ng/?s={query}"
+    },
+    {
+      "root": "https://www.vanguardngr.com/",
+      "search": "https://www.vanguardngr.com/search/{query}"
+    },
+    {
+      "root": "https://thesun.ng/",
+      "search": "https://thesun.ng/search-result/?q={query}"
+    },
+    {
+      "root": "https://www.naijanews.com/",
+      "search": "https://www.naijanews.com/?s={query}"
+    },
+    {
+      "root": "https://www.prime9ja.com.ng/",
+      "search": "https://www.prime9ja.com.ng/search?q={query}"
+    },
+    {
+      "root": "https://dailytimesng.com/",
+      "search": "https://dailytimesng.com/?s={query}"
+    },
+    {
+      "root": "https://saharareporters.com/",
+      "search": "https://saharareporters.com/search?search_api_fulltext={query}"
+    },
+    {
+      "root": "https://thenationonlineng.net/",
+      "search": "https://thenationonlineng.net/search-results/?q={query}"
+    }
+  ]
+}
